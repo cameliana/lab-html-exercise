@@ -1,0 +1,258 @@
+/* body {
+	background-color: red;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* CSS 2 | The Header and the navbar */
+body {
+	font-family: 'Poppins';
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+header > div {
+	padding: 0  25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+}
+
+nav {
+	width: 600px;
+}
+
+nav  ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav  a {
+	text-decoration: none;
+	color: black;
+}
+
+.blackHeart {
+	width: 20px;
+	margin-right: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.npmlogo {
+    padding: 0 5px;
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+  .search-container{
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600%;
+    max-width: 800px; 
+  }
+
+  #search_form {
+    display: flex;
+    align-items: center;
+    background-color:rgba(0,0,0,.05);
+    height: 40px;
+    margin-left: 10px;
+    width: 900px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .search_icon {
+    width: 25px;
+    height: auto;
+    margin-left: 5px;
+  }
+  
+  input[type="search"] {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    height: 100%;
+    font-size: 14px;
+    color:rgba(0,0,0,.05)
+  }
+  
+  button[type="submit"] {
+    background-color: #fb3e44;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    margin-left: 500px;
+    font-size: 15px;
+  }
+  
+  .link-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .link-buttons button {
+    background-color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .link-buttons button a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  .link-buttons button.join {
+    border: 1px solid black;
+  }
+
+  /* CSS 3 | section 1 */
+  .section1 {
+    background-color: rgba(232, 217, 217, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+  }
+
+  h1{
+    font-size: 50px;
+  }
+
+  .info{
+    text-align: center;
+    width: 400px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 55px;
+  }
+
+  .plan-btn{
+    color:white;
+    font-weight: 700;
+    font-size: 15px;
+    background: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    border: none;
+    width: 170px;
+    height: 40px;
+    margin-right: 50px;
+  }
+
+  .join-btn{
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: auto;
+  }
+
+  /* CSS 4 | section 2 */
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+  }
+
+.image{
+    height:200px;
+    width:200px;
+    margin: 10px 0 20px 0;
+}
+
+h2{
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    margin: 0 15px;
+    font-size: 1.7em;
+    padding: 0 15px;
+}
+
+.npm-info{
+    font-size: 14px;
+    margin-bottom: 55px;
+    text-align: center;
+    width: 600px;
+    margin-top: 25px;
+}
+
+/* CSS 5 | section 3 */
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+  }
+.row{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.column {
+    flex: 0.2;
+	padding: 10px;
+	margin: 10px;
+	height: 200px;
+    text-align: left;
+  }
+
+.icon{
+    height:40px;
+    width:40px;
+}
+h4{
+    color:#ED1C24;
+    font-size: 14px;
+}
+p{
+    font-size: 12px;
+}
+
+.create-btn{
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    color: white;
+    background-color: black;
+    width: 230px;
+    height: 40px;
+    margin-right: 50px;
+    font-size: 14px;
+    margin-top: 20px;
+}
